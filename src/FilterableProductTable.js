@@ -30,6 +30,7 @@ class FilterableProductTable extends React.Component{
         this.handleCheckBox=this.handleCheckBox.bind(this);
     }
     handleSearch(keywods){
+        console.log(keywods);
         this.setState({
             filterText:keywods
         });

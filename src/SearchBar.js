@@ -9,6 +9,7 @@ class SearchBar extends React.Component{
     handleChange(e){
         e.preventDefault();
         let inputText=this.refs.inputText.value;
+        console.log(inputText);
         this.props.onSearch(inputText);
     }
     checkboxChange(e){
